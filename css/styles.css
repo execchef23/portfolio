@@ -1,6 +1,12 @@
-body {
+.header {
     background-color: rgb(93, 158, 243);
     text-align: center;
     color: black;
 }
 
+.body {
+    background-color: rgb(147, 200, 247);
+    text-align: center;
+    color: black;
+}
+/* Photo by Pixabay: https://www.pexels.com/photo/turned-on-computer-monitor-displaying-text-270360/ */
