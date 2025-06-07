@@ -1,7 +1,7 @@
 body {
   /* Background properties */
   background-image: url('../Images/background.jpg');
-  background-size: 100% auto; /* Show full width, auto height */
+  background-size: contain; /* Shows entire image within viewport */
   background-position: center top; /* Position at top */
   background-attachment: fixed;
   background-repeat: no-repeat;
