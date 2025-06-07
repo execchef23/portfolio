@@ -5,8 +5,8 @@ body {
   background-position: center top; /* Position at top */
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-color: #2c3e50; /* Darker background color for contrast */
-  background-blend-mode: soft-light; /* Blends image with background color */
+  background-color: #3a506b; /* Lighter background color */
+  background-blend-mode: normal; /* Changed from soft-light for better visibility */
 
   /* Text and layout properties */
   font-family: 'Roboto', Arial, sans-serif;
@@ -18,7 +18,7 @@ body {
 
 /* To improve content readability while showing more background */
 .header, .body {
-  background-color: rgba(44, 62, 80, 0.6); /* Darker blue with more transparency */
+  background-color: rgba(68, 89, 119, 0.5); /* Lighter blue with more transparency */
   padding: 20px;
   border-radius: 8px;
   margin: 20px;
@@ -32,10 +32,11 @@ body {
 
 /* Project cards for better presentation */
 .project-card {
-  border: 1px solid #ddd;
+  background-color: rgba(255, 255, 255, 0.1); /* Very light background */
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   padding: 15px;
-  margin: 10px 0;
+  margin: 15px 0;
   transition: transform 0.3s ease;
 }
 
@@ -46,7 +47,7 @@ body {
 
 /* Navigation styling */
 nav {
-  background-color: rgba(44, 62, 80, 0.7); /* Slightly more opaque for navigation */
+  background-color: rgba(82, 109, 145, 0.7); /* Lighter blue for navigation */
   padding: 10px 0;
   margin: 0 20px;
   border-radius: 8px;
@@ -76,6 +77,19 @@ nav ul li a {
 nav ul li a:hover {
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.2); /* Highlight background on hover */
+}
+
+/* Make project links more visible */
+a {
+  color: #00ffcc; /* Bright cyan color for links */
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Text shadow for better readability */
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #66ffdd; /* Lighter cyan on hover */
 }
 
 /* Typography improvements */
