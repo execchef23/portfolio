@@ -1,12 +1,60 @@
-.header {
-    background-color: rgb(93, 158, 243);
-    text-align: center;
-    color: black;
+body {
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white; /* Light text for better readability against dark background */
 }
 
-.body {
-    background-color: rgb(147, 200, 247);
-    text-align: center;
-    color: black;
+/* To improve content readability over the image */
+.header, .body {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
 }
-/* Photo by Pixabay: https://www.pexels.com/photo/turned-on-computer-monitor-displaying-text-270360/ */
+
+/* General styling */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Project cards for better presentation */
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px 0;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Navigation styling */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #0066cc;
+}
