@@ -1,9 +1,16 @@
 body {
+  /* Background properties */
   background-image: url('../images/background.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  color: white; /* Light text for better readability against dark background */
+
+  /* Text and layout properties */
+  font-family: 'Roboto', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: white;
 }
 
 /* To improve content readability over the image */
@@ -51,10 +58,10 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   font-weight: bold;
-  color: #333;
+  color: white; /* Changed from #333 */
   transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: #0066cc;
+  color: #00ccff; /* Changed from #0066cc for better visibility on dark background */
 }
