@@ -1,6 +1,6 @@
 body {
   /* Background properties */
-  background-image: url('../Images/background.jpg');
+  /*background-image: url('../Images/background.jpg');
   background-size: contain; /* Shows entire image within viewport */
   background-position: center top; /* Position at top */
   background-attachment: fixed;
